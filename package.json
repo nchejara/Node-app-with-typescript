@@ -1,0 +1,40 @@
+{
+  "name": "app-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  
+  "scripts": {
+    "build": "tsc --w",
+    "start": "tsc && node ./dist/server.js"
+  },
+  
+  "devDependencies": {
+    "@types/body-parser": "1.17.0",
+    "@types/express": "4.16.0"
+  },
+  
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchejara/Node-app-with-typescript.git"
+  },
+  
+  "keywords": [
+    "TypeScript",
+    "Express",
+    "NodeJS"
+  ],
+  
+  "author": "Naren Chejara",
+  "license": "MIT",
+  
+  "bugs": {
+    "url": "https://github.com/nchejara/Node-app-with-typescript/issues"
+  },
+  "homepage": "https://github.com/nchejara/Node-app-with-typescript#readme"
+}
